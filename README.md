@@ -16,4 +16,4 @@ Nowadays, China air pollution is a pressing issue in the China society, since it
 
 ## Data Source on weather and pollution
 - [Weather data on NOAA](http://www7.ncdc.noaa.gov/CDO/cdoselect.cmd?datasetabbv=GSOD&countryabbv=&georegionabbv=)
-- Air pollution data sources [1] (http://aqi.cga.harvard.edu/china/), [2] (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/24826)
+- Air pollution data sources: [1] (http://aqi.cga.harvard.edu/china/), [2] (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/24826)
