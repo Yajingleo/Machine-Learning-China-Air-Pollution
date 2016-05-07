@@ -10,8 +10,10 @@ Nowadays, China air pollution is a pressing issue in the China society, since it
 - Other reports in Chinese:[1](http://www.sescn.org.cn/zyxx/2015dxsjmgs/sdj/C04.pdf) [2](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjQjMCw7a3MAhVC3mMKHTAGBiMQFggcMAA&url=http%3A%2F%2Fmanu36.magtech.com.cn%2FJweb_zghjkx%2FCN%2Farticle%2FdownloadArticleFile.do%3FattachType%3DPDF%26id%3D14294&usg=AFQjCNHpNgg7ZM9_cyHokQATSYgWKXhvSw&sig2=geHoF0Fy4G_h9hKag5GrZQ&bvm=bv.120853415,d.cGc)
 
 ## Machine Learning research on pullution prediction
--[Evolving the neural network model for forecasting air pollution time series](http://www.sciencedirect.com/science/article/pii/S0952197604000119)
+- [Evolving the neural network model for forecasting air pollution time series](http://www.sciencedirect.com/science/article/pii/S0952197604000119)
 - [Intercomparison of air quality data using principal component analysis, and forecasting of PM10 and PM2.5 concentrations using artificial neural networks](http://www.sciencedirect.com/science/article/pii/S0048969711000052)
 - [Machine learning in geosciences and remote sensing](http://www.sciencedirect.com/science/article/pii/S1674987115000821)
 
-
+## Data Source on weather and pollution
+- [Weather data on NOAA](http://www7.ncdc.noaa.gov/CDO/cdoselect.cmd?datasetabbv=GSOD&countryabbv=&georegionabbv=)
+- [Air pollution data](http://aqi.cga.harvard.edu/china/)
