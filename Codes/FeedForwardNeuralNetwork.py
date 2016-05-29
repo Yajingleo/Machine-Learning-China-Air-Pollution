@@ -1,3 +1,5 @@
+#This code is written by Haoxuan Dou, UCLA math. 
+
 import numpy as np
 import random
 
