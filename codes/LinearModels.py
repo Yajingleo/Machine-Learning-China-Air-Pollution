@@ -57,7 +57,7 @@ TrainError={}
 TestError={}
 VarianceScore={}
 
-
+#Fit data into models.
 i=0
 for name, regr in Estimators.items():
     regr.fit(X_train, y_train)
@@ -80,46 +80,7 @@ plt.legend(loc='upper left')
 
 plt.show()
 
-"""
-A=nonGaussian_linear_model()
-A.L1Fit(X_train, y_train)
-A.PlotPredict(X_test, y_test)
-print "The variance score using L1 loss is ", A.RSquared(X_train, y_train)
-
-A.L2Fit(X_train, y_train)
-A.PlotPredict(X_test, y_test)
-print "The variance score using L2 loss is ", A.RSquared(X_train, y_train)
-
-A.MRegressionFit(X_train, y_train)
-A.PlotPredict(X_test, y_test)
-print "The variance score using Huber loss is ", A.RSquared(X_train, y_train)
-
-
-fig = plt.figure()
-width=.35
-A=sorted(VarianceScore.items(), key=operator.itemgetter(1))
-VarianceScoreValues=np.array([A[i][1] for i in range(7)])
-VarianceScoreKeys=[A[i][0] for i in range(7)]
-plt.bar(np.arange(7), VarianceScoreValues, color='#007FFF', width=width)
-plt.xticks(np.arange(7)+ width / 2, VarianceScoreKeys)
-fig.autofmt_xdate()
-plt.ylabel("Training Variance Scores", **axis_font)
-plt.savefig("VarianceScoreBeijing.pdf")
-plt.show()
-
-fig = plt.figure()
-width=.35
-A=sorted(TestError.items(), key=operator.itemgetter(1))
-TestErrorValues=np.array([A[i][1] for i in range(7)])
-TestErrorKeys=[A[i][0] for i in range(7)]
-plt.bar(np.arange(7), TestErrorValues, color='#007FFF', width=width)
-plt.xticks(np.arange(7)+ width / 2, TestErrorKeys)
-fig.autofmt_xdate()
-plt.ylabel("Testing Errors", **axis_font)
-plt.savefig("TestErrorBeijing.pdf")
-plt.show()
-"""
-
+#Plot the prediction results.
 fig = plt.figure()
 width=.35
 plt.subplot(211)
