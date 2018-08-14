@@ -29,3 +29,9 @@ Then,
     *PM2.5(t) = F(PM2.5(t-8), P_1(t-8), ..., P_n(t-8), W_1(t-8), ..., W_m(t-8))*
     
 The project is going to learn *F* using various machine learning methods, linear models (Lasso, Ridge), Random Forest, Extra-Trees, and Neural Networks. 
+
+## Codes
+- [This](https://github.com/Yajingleo/Machine-Learning-China-Air-Pollution/blob/master/Codes/DataPrep.sql) is a SQL codes for preprocessing data. 
+- [This](https://github.com/Yajingleo/Machine-Learning-China-Air-Pollution/blob/master/Codes/FeedForwardNeuralNetwork.py) is a python codes for vanilla nerual networks of arbitrary number of layers, using mini-batch SGD.
+- [This](https://github.com/Yajingleo/Machine-Learning-China-Air-Pollution/blob/master/Codes/LinearModels.py) is a python codes for model selections among various methods, Ridge, Lasso, Random Forest, Extra-Tree, and M-regression.
+
